@@ -1,8 +1,4 @@
-import styled, {css} from "styled-components";
-
-interface FormProps {
-  hasError: boolean;
-}
+import styled from "styled-components";
 
 export const Title = styled.h1`
   font-size: calc(1.3rem + 12vw);
